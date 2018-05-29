@@ -1,0 +1,55 @@
+:root {
+  --theme-background: #454468;
+  --theme-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  color: var(--theme-color);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  line-height: 1.6;
+
+  background: var(--theme-background);
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.center-content {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.header {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.article {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.intro {
+  font-size: 1.3em;
+  font-style: italic;
+}
+
+.article__section {
+  margin-top: 4rem;
+}
